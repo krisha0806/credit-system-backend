@@ -1,7 +1,6 @@
 # credit-system-backend
 Django + PostgreSQL backend for managing user credits, dashboard insights, and credit entries.
 
-"Credit System Backend"
 This is the backend of the **Credit System** project that I have designed to manage user credits, authentication, and secure APIs for smooth integration with frontend applications.
 
 > **Live Repository:** [github.com/krisha0806/credit-system-backend](https://github.com/krisha0806/credit-system-backend)
@@ -18,7 +17,7 @@ This is the backend of the **Credit System** project that I have designed to man
 
 ---
 
-## 🛠Tech Stack
+## Tech Stack
 
 - **Language:** Node.js / Express.js  
 - **Database:** MongoDB / Mongoose *(or PostgreSQL if you're using it)*  
@@ -26,3 +25,26 @@ This is the backend of the **Credit System** project that I have designed to man
 - **Version Control:** Git & GitHub
 
 ---
+## API Endpoints (Local)
+
+These routes are available after running the backend locally:
+
+- `GET /api/credits/`       → List all credits
+- POST   /api/credits/        → Create credit entry
+- GET    /api/credits/<id>/   → Get specific credit
+- PUT    /api/credits/<id>/   → Update credit
+- DELETE /api/credits/<id>/   → Delete credit
+
+> Base URL: `http://localhost:8000` *(only works after running backend locally)*
+---
+## Project Structure
+
+credit-system-backend/
+├── backend/ # Django apps and API logic
+├── core/ # Project settings, URLs, WSGI, etc.
+├── docker/ # Docker-related files (if applicable)
+├── db.sqlite3 # Local database file (for dev/testing)
+├── .gitignore # Ignored files and folders
+└── README.md # Project overview
+---
+
