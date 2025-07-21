@@ -29,11 +29,10 @@ This is the backend of the **Credit System** project that I have designed to man
 
 These routes are available after running the backend locally:
 
-- `GET /api/credits/`       → List all credits
-- POST   /api/credits/        → Create credit entry
-- GET    /api/credits/<id>/   → Get specific credit
-- PUT    /api/credits/<id>/   → Update credit
-- DELETE /api/credits/<id>/   → Delete credit
+- `GET /api/credits/` — Get all credit data  
+- `POST /api/credits/` — Add new credit entry  
+- `PUT /api/credits/:id` — Update credit info  
+- `DELETE /api/credits/:id` — Delete credit entry
 
 > Base URL: `http://localhost:8000` *(only works after running backend locally)*
 ---
