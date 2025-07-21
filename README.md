@@ -36,14 +36,7 @@ These routes are available after running the backend locally:
 
 > Base URL: `http://localhost:8000` *(only works after running backend locally)*
 ---
-## Project Structure
-
-credit-system-backend/
-├── backend/ # Django apps and API logic
-├── core/ # Project settings, URLs, WSGI, etc.
-├── docker/ # Docker-related files (if applicable)
-├── db.sqlite3 # Local database file (for dev/testing)
-├── .gitignore # Ignored files and folders
-└── README.md # Project overview
+Author
+by Sudhiksha Krishnan
 ---
 
